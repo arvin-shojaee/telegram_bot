@@ -106,7 +106,7 @@ async def keyword_ban(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # --- اجرای بات ---
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token("7193575457:AAGOVsWLc40IYtimmWmErvgL5Bphl0VOinU").build()
+    app = ApplicationBuilder().token("7193575457:AAGOVsWLc40******5Bphl0VOinU").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
